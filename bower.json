@@ -1,0 +1,26 @@
+{
+  "name": "TwitterPlugin",
+  "homepage": "https://github.com/appunnicer13/loadTweet",
+  "authors": [
+    "appunnicer13 <appunni.m.cer13@iitbhu.ac.in>"
+  ],
+  "description": "A Tiny MCE 4.x Plugin For Loading Twitter Feeds",
+  "main": "index.html",
+  "keywords": [
+    "TinyMCE",
+    "Twitter",
+    "Plugin",
+    "Loader"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies" :[
+    "tinymce"
+  ]
+}
