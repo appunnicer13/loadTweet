@@ -53,4 +53,5 @@ function setEmbedTweet(link,html){
     var wholeContent = this.getContent();
     wholeContent = wholeContent.replace(link,html);
     this.setContent(wholeContent);
+    twttr.widgets.load();
 }
